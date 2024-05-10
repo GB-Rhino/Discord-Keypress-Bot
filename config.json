@@ -1,0 +1,48 @@
+{
+    "games": {
+        "ELDEN RING™": {
+            "commands": {
+                "roll": "space",
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right",
+                "forward": "w",
+                "back": "s",
+                "strafe_left": "a",
+                "strafe_right": "d",
+                "item": "r",
+                "jump": "f",
+                "crouch": "x",
+                "attack": "left_mouse",
+                "guard": "7",
+                "h_attack": "1",
+                "skill": "ctrl",
+                "lockon": "q"
+
+            }
+        },
+        "Dark Souls III": {
+            "commands": {
+                "roll": "space",
+                "up": "arrow_up",
+                "down": "arrow_down",
+                "left": "arrow_left",
+                "right": "arrow_right",
+                "attack": "ctrl",
+                "block": "alt"
+            }
+        },
+        "Skyrim": {
+            "commands": {
+                "move_forward": "w",
+                "move_back": "s",
+                "strafe_left": "a",
+                "strafe_right": "d",
+                "jump": "space",
+                "attack": "mouse_left",
+                "block": "mouse_right"
+            }
+        }
+    }
+}
