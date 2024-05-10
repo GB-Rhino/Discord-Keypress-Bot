@@ -7,7 +7,7 @@ the game set up in the example is Elden Ring with default keybinds.
 
 For convenience sake, I have added functionality so that only when you are focused on the specified window does it allow inputs, preventing people from messing with your computer.
 
-## DISCLAIMER: THIS WILL NOT RUN ON ITS OWN
+## THIS WILL NOT RUN ON ITS OWN
 You will need to supply your own bot token and install Python, as well as the prerequisites that are imported - to get the token, create a bot using the Discord developer Portal and go from there.
 
 ## Amending for other games
