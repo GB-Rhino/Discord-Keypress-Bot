@@ -87,9 +87,11 @@ def handle_command(command_map, command):
 async def on_message(message):
     if message.author == client.user:
         return  # Ignore messages from the bot itself
+    
+    
 
-    if message.content.startswith('!cmd '):
-        command_text = message.content[5:].strip().lower()  # Extract the command after '!cmd '
+    if message.content.startswith('!') and c:
+        command_text = message.content[1:].strip().lower()  # Extract the command after '!cmd '
         
         if is_valid_game_window(configurations):  # Check if the active window is a valid game
             active_game_config = get_active_game(configurations)  # Fetch the active game configuration

@@ -18,7 +18,9 @@
                 "guard": "7",
                 "h_attack": "1",
                 "skill": "ctrl",
-                "lockon": "q"
+                "lockon": "q",
+                "pause": "esc",
+                "map": "g"
 
             }
         },
