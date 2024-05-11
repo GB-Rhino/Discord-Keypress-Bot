@@ -14,7 +14,7 @@
                 "item": "r",
                 "jump": "f",
                 "crouch": "x",
-                "attack": "left_mouse",
+                "attack": "9",
                 "guard": "7",
                 "h_attack": "1",
                 "skill": "ctrl",

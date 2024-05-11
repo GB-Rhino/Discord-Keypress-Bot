@@ -5,6 +5,9 @@ import logging
 import unicodedata
 import json
 
+
+
+
 def get_current_window():
     processes = gw.getAllTitles()
     return processes

@@ -87,23 +87,25 @@ def handle_command(command_map, command):
 async def on_message(message):
     if message.author == client.user:
         return  # Ignore messages from the bot itself
-    
-    
 
     if message.content.startswith('!'):
-        command_text = message.content[1:].strip().lower()  # Extract the command after '!cmd '
+        command_text = message.content[1:].strip().lower()
         
-        if is_valid_game_window(configurations):  # Check if the active window is a valid game
-            active_game_config = get_active_game(configurations)  # Fetch the active game configuration
+        if is_valid_game_window(configurations):
+            active_game_config = get_active_game(configurations)
             if active_game_config:
                 response = handle_command(active_game_config['commands'], command_text)
-                await message.channel.send(response)  # Pass the correct command map
+                if response:  # Ensure there is a response to send
+                    await message.channel.send(response)
+                else:
+                    await message.channel.send("No response generated for the command.")
             else:
                 await message.channel.send("The game window is not recognized or not focused. Please focus on a valid game window to proceed.")
         else:
             await message.channel.send("The game window is not maximized or focused. Please maximize and focus the window to proceed.")
     else:
-        print(f"Message not starting with '!cmd ': {message.content}")
+        print(f"Message not starting with '!': {message.content}")
+
 
 
 
