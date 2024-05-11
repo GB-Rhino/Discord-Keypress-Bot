@@ -24,15 +24,20 @@
 
             }
         },
-        "Dark Souls III": {
+        "Pokemon - Emerald Version (U) - VisualBoyAdvance-M 2.1.7": {
             "commands": {
                 "roll": "space",
-                "up": "arrow_up",
-                "down": "arrow_down",
-                "left": "arrow_left",
-                "right": "arrow_right",
-                "attack": "ctrl",
-                "block": "alt"
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right",
+                "a": "z",
+                "b": "x",
+                "select": "shift",
+                "l": "c",
+                "r": "v",
+                "start": "enter",
+                "ff": "space"
             }
         },
         "Skyrim": {
